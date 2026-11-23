@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rang Mahal Collection offers stylish clothing, fabrics, cotton sarees, silk sarees, party wear, suits, dress materials and colourful dupattas for the whole family.">
+  <title>Rang Mahal Collection | Fashion & Clothing</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:#292323;background:#fffaf7;line-height:1.6}
+    header{background:#641b36;color:white;padding:17px 6%;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+    .logo{font-size:25px;font-weight:800;letter-spacing:.4px}
+    nav{display:flex;gap:20px;flex-wrap:wrap}
+    nav a{color:white;text-decoration:none;font-weight:600}
+    nav a:hover{color:#ffd7a0}
+    .hero{min-height:430px;padding:75px 8%;display:flex;align-items:center;background:linear-gradient(110deg,rgba(45,12,28,.88),rgba(45,12,28,.35)),linear-gradient(135deg,#a84e65,#e5a77d);color:white}
+    .hero-content{max-width:650px}
+    .hero h1{font-size:clamp(38px,6vw,62px);line-height:1.1;margin-bottom:18px}
+    .hero p{font-size:18px;max-width:570px;margin-bottom:25px}
+    .btn{display:inline-block;background:#f5c47d;color:#421528;text-decoration:none;padding:12px 22px;border-radius:7px;font-weight:800}
+    section{padding:55px 7%}
+    .section-title{text-align:center;color:#641b36;font-size:32px;margin-bottom:12px}
+    .intro{text-align:center;max-width:760px;margin:0 auto 30px;color:#65575b}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px}
+    .card{background:white;border:1px solid #f0dfe3;border-radius:13px;overflow:hidden;box-shadow:0 5px 18px rgba(70,20,40,.07)}
+    .card-art{height:145px;display:grid;place-items:center;font-size:54px;background:linear-gradient(135deg,#f7d9d1,#f4c77e)}
+    .card:nth-child(2) .card-art{background:linear-gradient(135deg,#d9c3e9,#f3d6b5)}
+    .card:nth-child(3) .card-art{background:linear-gradient(135deg,#c9e3d2,#f4d6a2)}
+    .card:nth-child(4) .card-art{background:linear-gradient(135deg,#e9c4d3,#d8d6f2)}
+    .card:nth-child(5) .card-art{background:linear-gradient(135deg,#f5d6a8,#e8b6a8)}
+    .card:nth-child(6) .card-art{background:linear-gradient(135deg,#d2d9f1,#f1d5df)}
+    .card h3{padding:14px 16px 4px;color:#641b36}
+    .card p{padding:0 16px 18px;color:#6c6063;font-size:14px}
+    .about{background:#f8edf0}
+    .about-box{max-width:850px;margin:auto;text-align:center}
+    .contact{text-align:center}
+    .contact p{margin:8px 0 20px;color:#65575b}
+    footer{background:#351321;color:#fbeef2;text-align:center;padding:20px}
+    @media(max-width:600px){header{justify-content:center;text-align:center}nav{justify-content:center;gap:13px}.hero{min-height:390px;padding:60px 7%}section{padding:42px 6%}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Rang Mahal Collection</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Style That Makes You Shine</h1>
+        <p>Discover beautiful clothing, elegant fabrics and traditional fashion for every occasion at affordable prices.</p>
+        <a class="btn" href="#collection">Explore Collection</a>
+      </div>
+    </section>
+
+    <section id="collection">
+      <h2 class="section-title">Our Collection</h2>
+      <p class="intro">Find something special for every celebration, everyday look and family occasion.</p>
+      <div class="cards">
+        <article class="card"><div class="card-art">🥻</div><h3>Cotton Sarees</h3><p>Comfortable and graceful sarees for everyday style.</p></article>
+        <article class="card"><div class="card-art">✨</div><h3>Silk Sarees</h3><p>Elegant traditional styles for celebrations and special occasions.</p></article>
+        <article class="card"><div class="card-art">🌸</div><h3>Party Wear Sarees</h3><p>Beautiful designs to help you celebrate in style.</p></article>
+        <article class="card"><div class="card-art">👗</div><h3>Elegant Suits</h3><p>Stylish suit sets for a smart and graceful look.</p></article>
+        <article class="card"><div class="card-art">🧵</div><h3>Unstitched Dress Materials</h3><p>Choose fabrics and create a look that is your own.</p></article>
+        <article class="card"><div class="card-art">🎨</div><h3>Colourful Dupattas</h3><p>Add a lovely finishing touch to your outfit.</p></article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-box">
+        <h2 class="section-title">About Rang Mahal Collection</h2>
+        <p>Welcome to Rang Mahal Collection, your destination for stylish clothing, fabrics and traditional fashion. We offer a variety of clothing options for women, men and children at affordable prices. Explore cotton sarees, silk sarees, party wear sarees, elegant suits, unstitched dress materials and colourful dupattas. Our aim is to help everyone find outfits they love for everyday wear and special occasions.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Visit Rang Mahal Collection</h2>
+      <p>Explore our collection and find your favourite style.</p>
+      <a class="btn" href="#home">Back to Home</a>
+      <p style="font-size:13px;margin-top:18px">Add your shop address and contact number here when ready.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Rang Mahal Collection. All rights reserved.</p>
+  </footer>
+</body>
+</html>
